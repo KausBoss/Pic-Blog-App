@@ -1,11 +1,11 @@
 {
-  "name": "picblogapp",
+  "name": "picblog",
   "version": "1.0.0",
   "description": "A blog site to post pictures",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+		"start": "node app.js"
+	},,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KausBoss/Pic-Blog-App.git"
