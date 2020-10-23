@@ -68,7 +68,7 @@ router.get("/:id", function (req, res) {
 //=================EDIT POST ROUTE=====================
 router.get("/:id/edit", middleware.checkPostOwnership, (req, res) => {
     Post.findById(req.params.id, (err, foundPost) => {
-        res.render("Posts/edit", { post: foundPost });
+        res.render("posts/edit", { post: foundPost });
     });
 });
 
